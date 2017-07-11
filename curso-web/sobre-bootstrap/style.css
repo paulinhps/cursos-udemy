@@ -1,3 +1,12 @@
 #tamanhos > .row {
     margin-bottom: 5px;
 }
+
+body {
+    background: #b1b1b1;
+}
+
+#principal.container {
+    background: #ffffff;
+    margin-top: 75px;
+}
