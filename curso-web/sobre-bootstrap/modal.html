@@ -70,13 +70,24 @@
       <button class="btn btn-info" data-toggle="modal" data-target="#janela">Entrar</button>
       
       <form action="" id="janela" class="modal fade">
-        <div class="modal-dialog modal-xs">
+        <div class="modal-dialog modal-sm">
           <div class="modal-content">
             <div class="modal-header">
               <button class="close" type="button" data-dismiss="modal"><span>&times;</span></button>
+              <h4 class="modal-title">Painel de Acesso</h4>
             </div>
-            <div class="modal-body">Body</div>
-            <div class="modal-footer">Footer</div>
+            <div class="modal-body">
+              <div class="form-group">
+                <input type="email" placeholder="Email de acesso" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="password" placeholder="Senha de acesso" class="form-control">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-default" type="button" data-dismiss="modal"><span>Cancelar</span></button>
+              <input type="submit" class="btn btn-primary" value="Entrar">
+            </div>
           </div>
         </div>
       </form>
